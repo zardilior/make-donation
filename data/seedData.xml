@@ -6,4 +6,6 @@
         <artifacts artifactName="component://DonationPage/screen/DonationPage/DonationForm*" artifactTypeEnumId="AT_XML_SCREEN_TRANS" inheritAuthz="Y" nameIsPattern="Y"/>
         <artifacts artifactName="component://DonationPage/screen/DonationPage/DonationForm.xml" artifactTypeEnumId="AT_XML_SCREEN" inheritAuthz="Y" nameIsPattern="N"/>
     </artifactGroups>
+    <mantle.party.Party partyId='MK' pseudoId='Mk' partyTypeEnumId='PtyOrganization'/>
+    <!-- insert MK Party-->
 </entity-facade-xml>
