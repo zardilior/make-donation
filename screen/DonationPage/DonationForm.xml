@@ -11,8 +11,8 @@
     </actions>
 
     <widgets>
-        <label type="h1" text="Donations Form"/>
-        <form-single name="Donations" transition="createDonation" method="POST">
+        <label type="h1" text="Donations Form" id="formTitle"/>
+        <form-single name="Donations" transition="createDonation" method="POST" id="Donations">
             <field name="firstName">
                 <default-field>
                     <text-line size="30"/>
